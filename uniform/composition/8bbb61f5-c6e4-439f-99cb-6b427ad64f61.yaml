@@ -1,0 +1,26 @@
+composition:
+  _name: Homepage
+  _id: 8bbb61f5-c6e4-439f-99cb-6b427ad64f61
+  _slug: /
+  type: page
+  slots:
+    content:
+      - _id: f7e0ba6d-e1ec-4057-9d10-e0a0a1f14949
+        type: header
+        parameters:
+          title:
+            type: text
+            value: This is the title
+          imageAlt:
+            type: text
+            value: This is the alt text of the image
+          imageUrl:
+            type: image
+            value: >-
+              https://img.uniform.global/p/fWBzOqSESpi8pPC_YJ_Pfg/xSHoPQJyTUyaiaaOUHo-jA-logo_endorsement.svg
+          highlightedTitle:
+            type: text
+            value: We can also in-line edit this
+created: '2024-01-31T11:17:25.990179+00:00'
+modified: '2024-01-31T11:23:52.518703+00:00'
+pattern: false
